@@ -91,8 +91,8 @@ function startGame() {
 /** Game playing by clicking logic */
 /** Let's rock and roll */
 function listenerDevOps(e) {
-	var time = 1200; /* Time gap before first paired card opening */
-	(selector === 1) ? i++ : time = 700; /* Time gap before second paired card opening */
+	var time = 700; /* Time gap before first paired card opening */
+	(selector === 1) ? i++ : time = 500; /* Time gap before second paired card opening */
 	selector ^= 1;
 	var pair = pairs[i];
 	if (pair) {
